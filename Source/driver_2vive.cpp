@@ -27,7 +27,6 @@
 
 static const char* STR_MANUFACTURERNAME = "WindowsMR";
 static const char* STR_MODELNUMBER_HMD = "HP Windows Mixed Reality Headset0";
-static const char* STR_MODELNUMBER_TRACKINGREFERENCE = "N/A"; // No specific tracking reference provided in the WMR HP Reverb configuration
 static const char* STR_MODELNUMBER_CONTROLLERLEFT = "WindowsMR: 0x045E/0x065B/0/1";
 static const char* STR_MODELNUMBER_CONTROLLERRIGHT = "WindowsMR: 0x045E/0x065B/0/2";
 
