@@ -25,11 +25,11 @@
 #include "MinHook.inl"
 #include "openvr_driver.h"
 
-static const char* STR_MANUFACTURERNAME = "HTC";
-static const char* STR_MODELNUMBER_HMD = "Vive MV HTC LHR-00000000";
-static const char* STR_MODELNUMBER_TRACKINGREFERENCE = "HTC V2-XD/XE LHB-00000000";
-static const char* STR_MODELNUMBER_CONTROLLERLEFT = "Oculus 1WMHH845L11204_Controller_Left";
-static const char* STR_MODELNUMBER_CONTROLLERRIGHT = "Oculus 1WMHH845L11204_Controller_Right";
+static const char* STR_MANUFACTURERNAME = "WindowsMR";
+static const char* STR_MODELNUMBER_HMD = "HP Windows Mixed Reality Headset0";
+static const char* STR_MODELNUMBER_TRACKINGREFERENCE = "N/A"; // No specific tracking reference provided in the WMR HP Reverb configuration
+static const char* STR_MODELNUMBER_CONTROLLERLEFT = "WindowsMR: 0x045E/0x065B/0/1";
+static const char* STR_MODELNUMBER_CONTROLLERRIGHT = "WindowsMR: 0x045E/0x065B/0/2";
 
 static vr::ETrackedPropertyError (__thiscall *Org_WritePropertyBatch)(vr::IVRProperties* thisptr, vr::PropertyContainerHandle_t ulContainerHandle, vr::PropertyWrite_t *pBatch, uint32_t unBatchEntryCount);
 
