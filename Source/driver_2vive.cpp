@@ -25,10 +25,10 @@
 #include "MinHook.inl"
 #include "openvr_driver.h"
 
-static const char* STR_MANUFACTURERNAME = "WindowsMR";
-static const char* STR_MODELNUMBER_HMD = "HP Windows Mixed Reality Headset0";
-static const char* STR_MODELNUMBER_CONTROLLERLEFT = "WindowsMR: 0x045E/0x065B/0/1";
-static const char* STR_MODELNUMBER_CONTROLLERRIGHT = "WindowsMR: 0x045E/0x065B/0/2";
+static const char* STR_MANUFACTURERNAME = "Oculus";
+static const char* STR_MODELNUMBER_HMD = "1PASH9AREV9482 Headset Oculus Quest Oculus";
+static const char* STR_MODELNUMBER_CONTROLLERLEFT = "1PASH9AREV9482_Controller_Left Controller Oculus Quest (Left Controller) Oculus";
+static const char* STR_MODELNUMBER_CONTROLLERRIGHT = "1PASH9AREV9482_Controller_Right Controller Oculus Quest (Right Controller) Oculus";
 
 static vr::ETrackedPropertyError (__thiscall *Org_WritePropertyBatch)(vr::IVRProperties* thisptr, vr::PropertyContainerHandle_t ulContainerHandle, vr::PropertyWrite_t *pBatch, uint32_t unBatchEntryCount);
 
